@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    background-color: rgb(255, 248, 216);
+    font-size: x-large;
+}
+    img{
+    width: 15%;
+    height: 15%;
+    display: block;
+    margin: 0 auto;
+    }
+   img:hover{
+    width: 20%;
+    height: 20%;
+    border-radius: 50px;
+   }
+header{
+    /* edit the background color, color, & padding to go with the other colors on the website */
+    /* The padding is the area around the words */
+    background-color: rgb(187, 172, 149);
+    color: rgb(0, 0, 0);
+    padding: 2px;
+    text-align: center;
+    font-style: normal;
+} 
+
+p{
+    text-align: left;
+    
+    text-indent: 15%;
+}
+h4{
+    background-color: rgb(194, 180, 159);
+       color: rgb(47, 47, 48);
+       border-radius: 30px;
+       text-align: center;
+       
+   }
+h3{
+    background-color: rgb(194, 180, 159);
+       color: rgb(47, 47, 48);
+       border-radius: 30px;
+       text-align: center;
+       
+   }
+h2{
+ background-color: rgb(194, 180, 159);
+    color: rgb(47, 47, 48);
+    border-radius: 30px;
+    text-align: center;
+   
+}
+/* this is a custom class that is link class attributes */
+.button{
+    background-color: rgb(0, 0, 0);
+    color: rgb(240, 228, 160);
+    /* first number in the padding is the top and bottom and the second is the left and right */
+    padding: 10px 20px;
+    /* mess with the decoration to see is any works with the button, if not select "none" */
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 7px;
+    text-align: center;
+}
+
+/* added a hover effect for the button */
+/* edit this to have the effect of hovering over the button noticable, but not too much for the user */
+.button:hover{
+    background-color: rgb(245, 237, 164);
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    border-radius: 50px;
+}
+.social-media{
+    background-color: rgb(0, 0, 0);
+    color: rgb(240, 228, 160);
+    /* first number in the padding is the top and bottom and the second is the left and right */
+    padding: 10px 20px;
+    /* mess with the decoration to see is any works with the button, if not select "none" */
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 7px;
+    text-align: center;
+}
+.social-media:hover{
+    background-color: rgb(245, 237, 164);
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    border-radius: 50px;
+}
+/* build a box for the gradient color change */
+.gradient-box{
+    width: 1000px;
+    height: 200px;
+    background: linear-gradient(to right, rgb(226, 194, 126), rgb(63, 62, 50));
+    margin: 0 auto;
+}
+/* create animation for the css style */
+.animated-box{
+    width: 75px;
+    height: 150px;
+    background-color: rgb(97, 94, 94);
+    border-radius: 45%; 
+    /* the border radius will round the edges 50%=circle */
+    margin: 0 auto; 
+    /* this will typically center things */
+    animation: bounce 4s infinite;
+}
+/* define the bounce & edit values to change the bounce */
+@keyframes bounce{
+    0%, 20%, 50%, 80%, 100%{
+        transform: translateY(0);
+    }
+    20%{
+        transform: translateY(-40px);
+    }
+    80%{
+        transform: translateY(-10px);
+    }
+}
+
