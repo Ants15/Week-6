@@ -1,1 +1,1 @@
-# Week-6
+# Week-6: I took the class lesson and expanded on the file that we created. I turned it into a website with very little information and very undetailed writing, but I took some images and added them, changed the colors, used the gradient to create a scale, and much more. The HTML and CSS I created differs from the main lesson, but uses some key factors that are within the lesson with the creations. 
